@@ -9,7 +9,7 @@ body {
            rgba(180,200,255,0.5)
        );
      overflow: hidden;
-     cursor: url('img/cursor.png'), default;
+     cursor: url('../assets/img/cursor.png'), default;
      font-family: 'Open Sans', sans-serif;
      color:#fff;
      background-color: $test;
@@ -53,7 +53,7 @@ body {
 }
 
 a {
-     cursor: url('img/cursor.png'), default;
+     cursor: url('../assets/img/cursor.png'), default;
 }
 
 .em {

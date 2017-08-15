@@ -311,7 +311,7 @@ $( "#go-home" ).click(function() {
 var audio, playbtn;
 function initAudioPlayer(){
      audio = new Audio();
-     audio.src = "audio/song1.mp3";
+     audio.src = "assets/audio/song1.mp3";
      audio.loop = true;
      audio.pause();
 

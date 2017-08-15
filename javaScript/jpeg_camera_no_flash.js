@@ -8,8 +8,8 @@
 
   JpegCamera = (function() {
     JpegCamera.DefaultOptions = {
-      shutter_ogg_url: "/jpeg_camera/shutter.ogg",
-      shutter_mp3_url: "/jpeg_camera/shutter.mp3",
+      shutter_ogg_url: "assets/audio/shutter.ogg",
+      shutter_mp3_url: "assets/audio/shutter.mp3",
       swf_url: "/jpeg_camera/jpeg_camera.swf",
       on_debug: function(message) {
         if (console && console.log) {
